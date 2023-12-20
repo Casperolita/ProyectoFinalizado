@@ -1,0 +1,96 @@
+<!-- Esta página es una réplica de algunas partes de la página madre que se llama "Tienda de plantas"-->
+        
+        <!DOCTYPE html>
+        <html lang="es">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!--<link rel="stylesheet" href="public/css/styleregistro.css">-->  
+            <link rel="stylesheet" href="../css/styleregistro.css">
+            <title>Registro</title>
+            <!-- <link rel="icon" href="public/img/icon.jpg"> -->
+        </head>
+        <body>
+
+            <nav class="navbar">
+                <ul>    
+              <!--<li><a href="../../index.html">Home</a></li>-->
+                  <li><a href="../../public/views/home.html">Home</a></li>
+                     <li class="submenu">        
+                       <a href="">Productos</a>
+                       <ul>
+                       <li><a href="../views/verdant.html">Tienda de plantas</a></li>
+                       <li><a href="../views/deco.html">Decoración</a></li>
+                       <li><a href="../views/conmat.html">Construcción Materiales</a></li>
+                       </ul>
+                     </li>
+                   <li><a href="../../public/views/registro.html">Registrarse</a></li>
+                   <li><a href="../../public/views/tucompra.html">Tu compra</a></li>
+                   </ul>
+            </nav>
+            
+            <form action="">
+                <fieldset>
+                    <legend>Formulario de registro</legend>
+        
+                    <label for="apellido">Apellido</label>
+                    <input type="text" id="apellido" name="apellido">
+        
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="name">
+        
+                    <label for=”fechanacimiento”>Fecha de nacimiento</label>
+                    <input type=”date” id=”fechanacimiento” name=”fechanacimiento”>
+                   
+                   <label for=”nacionalidad”>Nacionalidad</label>
+                    <input type=”text” id=”nacionalidad” name=”nacionalidad”>
+                   
+                   <label for=”documento”>Documento Nº</label>
+                    <input type=”text” id=”documento” name=”documento”>
+                   
+                   <label for=”direccion”>Dirección</label>
+                    <input type=”text” id=”direccion” name=”direccion”>
+    
+        
+                    <label for="provincialocalidad">Provincia y localidad</label>
+                    <input type="text" id="provincialocalidad" name="provincialocalidad">
+        
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email">
+        
+                    <label for="repetiremail">Repetir Email</label>
+                    <input type="email" id="repetiremail" name="repetiremail">
+        
+                    <label for="contraseña">Contraseña</label>
+                    <input type="password" id="contraseña" name="pass" required>
+        
+                    <label for="repetircontraseña">Repetir Contraseña</label>
+                    <input type="password" id="repetircontraseña" name="repetirpass">
+        
+                    <p>Al registrarse y usar este sitio Web, usted acepta que quedará vinculado por todos los términos y condiciones establecidos y sus modificatorias futuras, los cuales puede leer siguiendo el enlace en el pie de página.</p>
+                    
+                    <input type="submit" value="Registrarse">
+                    <input type="reset" value="Borrar">
+                </fieldset>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <section class="ft-legal">
+            <div>
+                <ul class="ft-legal-list">
+                    <!--<a href="public/views/AvisolegalTerminosyCondiciones.doc.html" target="_blank">Aviso legal - Términos y condiciones</a>
+                        <a href="../public/views/AvisolegalTerminosyCondiciones.doc.html" target="_blank">Aviso legal - Términos y condiciones</a>
+                    <li><a href="public/views/AvisolegalTerminosyCondiciones.doc.html">Términos y condiciones</a></li>
+                    <li><a href="public/views/legales.html">Términos y condiciones</a></li>-->
+                    <li><a href="../views/AvisolegalTerminosyCondiciones.doc.html">Términos y condiciones</a></li>
+                    <li>&copy; 2023 Copyright Shop_online</li>
+                </ul>
+            </div>
+        </section>
+    </footer>
+
+
+            </form>
+        </body>
+        </html>
+        
